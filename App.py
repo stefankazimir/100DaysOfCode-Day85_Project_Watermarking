@@ -38,7 +38,7 @@ def watermark():
        messagebox.showerror("Error", "All fields are required!")
        return
    water1_1(path1, path2, text)
-   messagebox.showinfo("PythonGeeks(Congrats)", "Watermarked image saved!")
+   messagebox.showinfo("Congrats", "Image saved!")
 
 root = tk.Tk()
 root.title("Image Watermark App")
