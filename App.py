@@ -17,7 +17,6 @@ def water1_1(input_img, output_img, text):
    watermark_image.paste(text_image)
    image_with_watermark = Image.alpha_composite(original_img, watermark_image)
    image_with_watermark = image_with_watermark.convert("RGB")
-
    image_with_watermark.save(output_img,format="PNG")
 
 def img1():
